@@ -1,0 +1,32 @@
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(97,115,172,1) 92%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10em;
+    transition: all 1s;
+
+}
+
+
+button:hover{
+    background-color: rgb(131, 208, 183);
+    border-color: rgb(112, 112, 162);
+    transform: translate(0, -5%);
+
+}
+
+
